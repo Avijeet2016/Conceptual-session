@@ -112,6 +112,9 @@
   font-style: italic;
 }
 
+body {
+  background-color: #F5F5F5;
+}
 .container {
   max-width: 1280px;
   margin: auto;
@@ -162,4 +165,34 @@ nav {
   padding: 15px 30px;
   border-radius: 8px;
   background-color: #006A50;
+}
+
+.pillars-parent {
+  margin: 80px auto;
+}
+.pillars-parent h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 32px;
+}
+.pillars-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.pillars-card-info img {
+  width: 50px;
+  height: 50px;
+}
+.pillars-card-info {
+  display: flex;
+  justify-content: center;
+  align-items: column;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #0e0e0e24;
+  border-radius: 16px;
+  padding: 25px;
+  background-color: #FFFFFF; 
 }
