@@ -168,3 +168,49 @@ nav {
   color: #0e0e0eb8;
   font-weight: 600;
 }
+.opinion-parent {
+  margin: 80px auto;
+}
+.opinion-parent h1 {
+  font-size: 40px;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+.opinion-table {
+  background-color: #FFFFFF;
+  padding: 32px;
+  border-radius: 16px;
+}
+.opinion-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.opinion-table table th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+/* .opinion-table table thead tr th {
+  border: none;
+} */
+ .opinion-table th:first-child{
+  border-right: none;
+ }
+.opinion-table th:nth-child(2){
+  border-left: none;
+ }
+ .opinion-table th:first-child, td:first-child {
+  text-align: left;
+ }
+ .opinion-table th:last-child, td:last-child {
+  text-align: right;
+ }
+ .opinion-table table thead tr {
+  background-color: #C6E4D6;
+ }
+ .table-btn {
+  background-color: #C6E4D6;
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: 1px solid black;
+ }
